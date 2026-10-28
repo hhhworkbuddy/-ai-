@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Go9 Agent Arena · 九路围棋 Agent 评测</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b5432f'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%23f6ede0' stroke-width='2.5'/%3E%3Ccircle cx='32' cy='32' r='6.5' fill='%23f6ede0'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <div class="seal">碁</div>
+      <div class="brand-text">
+        <b>Go9 Agent Arena</b>
+        <span>九路围棋 · Agent 评测</span>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#/" data-k="home">总览</a>
+      <a href="#/ladder" data-k="ladder">榜单</a>
+      <a href="#/engines" data-k="engines">参赛作品</a>
+      <a href="#/arena" data-k="arena">竞技场</a>
+      <a href="#/rules" data-k="rules">规则</a>
+      <a href="#/submit" data-k="submit">提交</a>
+      <a href="#/prompt" data-k="prompt">提示词包</a>
+    </nav>
+
+    <div class="topmeta">
+      <span><i class="dot"></i>评审开放中</span>
+      <span>2026 S1</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap" id="app"></div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>Go9 Agent Arena · 规则以《9路围棋程序迭代开发任务书》为准</span>
+    <span>9 路 · 贴 7.5 目 · 每手 5 秒 · 500 手上限 · PSK · GNU Go 3.8 裁决</span>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

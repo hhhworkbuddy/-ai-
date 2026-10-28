@@ -1,0 +1,12 @@
+# 运行时产物
+__pycache__/
+*.pyc
+*.pyo
+engines/*/
+!engines/.gitkeep
+
+# 本地临时文件
+*.tmp
+*.log
+Thumbs.db
+.DS_Store

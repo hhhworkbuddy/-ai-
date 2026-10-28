@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "board_size": 9,
+    "komi": 7.5,
+    "max_moves": 500,
+    "move_time": 3.0,
+    "elo_k": 32,
+    "initial_elo": 1000
+  },
+  "engines": [
+    {
+      "id": "gnugo_l1",
+      "name": "GNU Go L1",
+      "path": "H:\\hwork\\agent_go9_arena\\build\\bin\\gnugo-3.8\\gnugo.exe",
+      "args": [
+        "--mode",
+        "gtp",
+        "--level",
+        "1"
+      ],
+      "cwd": "H:\\hwork\\agent_go9_arena\\build\\bin\\gnugo-3.8",
+      "sample": true,
+      "role": "baseline",
+      "desc": "基准对手，用于验证对局链路"
+    },
+    {
+      "id": "gnugo_l5",
+      "name": "GNU Go L5",
+      "path": "H:\\hwork\\agent_go9_arena\\build\\bin\\gnugo-3.8\\gnugo.exe",
+      "args": [
+        "--mode",
+        "gtp",
+        "--level",
+        "5"
+      ],
+      "cwd": "H:\\hwork\\agent_go9_arena\\build\\bin\\gnugo-3.8",
+      "sample": true,
+      "role": "baseline",
+      "desc": "基准对手，用于验证对局链路"
+    },
+    {
+      "id": "GNU_Go_L9",
+      "name": "GNU Go L9",
+      "path": "H:\\hwork\\agent_go9_arena\\build\\engines\\GNU_Go_L9\\gnugo.exe",
+      "args": [
+        "--mode",
+        "gtp",
+        "--level",
+        "9"
+      ],
+      "cwd": "H:\\hwork\\agent_go9_arena\\build\\engines\\GNU_Go_L9",
+      "entry": "gnugo.exe",
+      "sample": false,
+      "desc": ""
+    }
+  ]
+}

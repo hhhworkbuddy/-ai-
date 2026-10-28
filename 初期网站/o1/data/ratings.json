@@ -1,0 +1,29 @@
+{
+  "engines": {
+    "gnugo_l1": {
+      "elo": 1001.9,
+      "wins": 5,
+      "losses": 5,
+      "draws": 0,
+      "games": 10,
+      "name": "gnugo_l1"
+    },
+    "gnugo_l5": {
+      "elo": 964.1,
+      "wins": 4,
+      "losses": 6,
+      "draws": 0,
+      "games": 10,
+      "name": "gnugo_l5"
+    },
+    "GNU_Go_L9": {
+      "elo": 1034.0,
+      "wins": 6,
+      "losses": 4,
+      "draws": 0,
+      "games": 10,
+      "name": "GNU Go L9"
+    }
+  },
+  "updated_at": 1793200891
+}

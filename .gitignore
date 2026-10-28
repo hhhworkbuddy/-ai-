@@ -2,11 +2,13 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# 用户上传的引擎不入库
 engines/*/
 !engines/.gitkeep
 
-# 本地临时文件
-*.tmp
+# 临时文件
 *.log
+*.tmp
 Thumbs.db
 .DS_Store
